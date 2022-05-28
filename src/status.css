@@ -1,3 +1,53 @@
+[data-status="online"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Online"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Online"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Online"] .mask-1FEkla > svg > rect,
+[aria-label*="Online"] .mask-2Me5HY > svg > rect {
+	fill: var(--action-success);
+}
+
+[data-status="idle"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Idle"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Idle"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Idle"] .mask-1FEkla > svg > rect,
+[aria-label*="Idle"] .mask-2Me5HY > svg > rect {
+	fill: var(--action-warning);
+}
+
+[data-status="dnd"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Do Not Disturb"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-1FEkla > svg > rect,
+[aria-label*="Do Not Disturb"] .mask-2Me5HY > svg > rect {
+	fill: var(--action-error);
+}
+
+[data-status="offline"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Offline"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Offline"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Offline"] .mask-1FEkla > svg > rect,
+[aria-label*="Offline"] .mask-2Me5HY > svg > rect {
+	fill: grey;
+	opacity: 0.5;
+}
+
+[data-status="invisible"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Invisible"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Invisible"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Invisible"] .mask-1FEkla > svg > rect,
+[aria-label*="Invisible"] .mask-2Me5HY > svg > rect {
+	fill: grey;
+	opacity: 0.8;
+}
+
+[data-status="streaming"] .wrapper-1VLyxH rect[fill*="#"],
+[aria-label*="Streaming"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Streaming"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Streaming"] .mask-1FEkla > svg > rect,
+[aria-label*="Streaming"] .mask-2Me5HY > svg > rect {
+	fill: var(--brand-primary);
+}
+
 .selected-3veCBZ [data-status="online"] .wrapper-1VLyxH rect[fill*="#"],
 .selected-3veCBZ [aria-label*="Online"] .mask-1FEkla > foreignObject + rect,
 .selected-3veCBZ [aria-label*="Online"] .mask-2Me5HY > foreignObject + rect,
