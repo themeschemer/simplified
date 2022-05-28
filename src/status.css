@@ -1,0 +1,47 @@
+.selected-3veCBZ [data-status="online"] .wrapper-1VLyxH rect[fill*="#"],
+.selected-3veCBZ [aria-label*="Online"] .mask-1FEkla > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Online"] .mask-2Me5HY > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Online"] .mask-1FEkla > svg > rect,
+.selected-3veCBZ [aria-label*="Online"] .mask-2Me5HY > svg > rect {
+	fill: white;
+}
+
+.selected-3veCBZ [data-status="idle"] .wrapper-1VLyxH rect[fill*="#"],
+.selected-3veCBZ [aria-label*="Idle"] .mask-1FEkla > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Idle"] .mask-2Me5HY > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Idle"] .mask-1FEkla > svg > rect,
+.selected-3veCBZ [aria-label*="Idle"] .mask-2Me5HY > svg > rect {
+	fill: white;
+}
+
+.selected-3veCBZ [data-status="dnd"] .wrapper-1VLyxH rect[fill*="#"],
+.selected-3veCBZ [aria-label*="Do Not Disturb"] .mask-1FEkla > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Do Not Disturb"] .mask-2Me5HY > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Do Not Disturb"] .mask-1FEkla > svg > rect,
+.selected-3veCBZ [aria-label*="Do Not Disturb"] .mask-2Me5HY > svg > rect {
+	fill: white;
+}
+
+.selected-3veCBZ [data-status="offline"] .wrapper-1VLyxH rect[fill*="#"],
+.selected-3veCBZ [aria-label*="Offline"] .mask-1FEkla > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Offline"] .mask-2Me5HY > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Offline"] .mask-1FEkla > svg > rect,
+.selected-3veCBZ [aria-label*="Offline"] .mask-2Me5HY > svg > rect {
+	fill: white;
+}
+
+.selected-3veCBZ [data-status="invisible"] .wrapper-1VLyxH rect[fill*="#"],
+.selected-3veCBZ [aria-label*="Invisible"] .mask-1FEkla > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Invisible"] .mask-2Me5HY > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Invisible"] .mask-1FEkla > svg > rect,
+.selected-3veCBZ [aria-label*="Invisible"] .mask-2Me5HY > svg > rect {
+	fill: white;
+}
+
+.selected-3veCBZ [data-status="streaming"] .wrapper-1VLyxH rect[fill*="#"],
+.selected-3veCBZ [aria-label*="Streaming"] .mask-1FEkla > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Streaming"] .mask-2Me5HY > foreignObject + rect,
+.selected-3veCBZ [aria-label*="Streaming"] .mask-1FEkla > svg > rect,
+.selected-3veCBZ [aria-label*="Streaming"] .mask-2Me5HY > svg > rect {
+	fill: white;
+}
